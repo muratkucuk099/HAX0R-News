@@ -14,6 +14,10 @@
 		04247E7229C8877B00916580 /* HAX0R_NewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04247E7129C8877B00916580 /* HAX0R_NewsTests.swift */; };
 		04247E7C29C8877B00916580 /* HAX0R_NewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04247E7B29C8877B00916580 /* HAX0R_NewsUITests.swift */; };
 		04247E7E29C8877B00916580 /* HAX0R_NewsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04247E7D29C8877B00916580 /* HAX0R_NewsUITestsLaunchTests.swift */; };
+		04247E8C29C88CBF00916580 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04247E8B29C88CBF00916580 /* NetworkManager.swift */; };
+		04247E8E29C8902B00916580 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04247E8D29C8902B00916580 /* PostData.swift */; };
+		04247E9129C899D200916580 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04247E9029C899D200916580 /* DetailView.swift */; };
+		04247E9329C8A03800916580 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04247E9229C8A03800916580 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		04247E7729C8877B00916580 /* HAX0R NewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HAX0R NewsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04247E7B29C8877B00916580 /* HAX0R_NewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAX0R_NewsUITests.swift; sourceTree = "<group>"; };
 		04247E7D29C8877B00916580 /* HAX0R_NewsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HAX0R_NewsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04247E8B29C88CBF00916580 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		04247E8D29C8902B00916580 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		04247E9029C899D200916580 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		04247E9229C8A03800916580 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		04247E5F29C8877B00916580 /* HAX0R News */ = {
 			isa = PBXGroup;
 			children = (
+				04247E8A29C88B2800916580 /* Model */,
 				04247E6029C8877B00916580 /* HAX0R_NewsApp.swift */,
-				04247E6229C8877B00916580 /* ContentView.swift */,
+				04247E8F29C899A600916580 /* Views */,
 				04247E6429C8877B00916580 /* Assets.xcassets */,
 				04247E6629C8877B00916580 /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				04247E7D29C8877B00916580 /* HAX0R_NewsUITestsLaunchTests.swift */,
 			);
 			path = "HAX0R NewsUITests";
+			sourceTree = "<group>";
+		};
+		04247E8A29C88B2800916580 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04247E8B29C88CBF00916580 /* NetworkManager.swift */,
+				04247E8D29C8902B00916580 /* PostData.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		04247E8F29C899A600916580 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04247E6229C8877B00916580 /* ContentView.swift */,
+				04247E9029C899D200916580 /* DetailView.swift */,
+				04247E9229C8A03800916580 /* WebView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04247E8C29C88CBF00916580 /* NetworkManager.swift in Sources */,
+				04247E8E29C8902B00916580 /* PostData.swift in Sources */,
 				04247E6329C8877B00916580 /* ContentView.swift in Sources */,
+				04247E9329C8A03800916580 /* WebView.swift in Sources */,
+				04247E9129C899D200916580 /* DetailView.swift in Sources */,
 				04247E6129C8877B00916580 /* HAX0R_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
